@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400&display=swap");
+
+html {
+  background: linear-gradient(
+      135deg,
+      hsla(307.67, 90.63%, 40.71%, 1) 0%,
+      hsla(307.67, 90.63%, 40.71%, 0) 70%
+    ),
+    linear-gradient(
+      25deg,
+      hsla(219.77, 99.3%, 48.21%, 1) 10%,
+      hsla(219.77, 99.3%, 48.21%, 0) 80%
+    ),
+    linear-gradient(
+      315deg,
+      hsla(214.36, 94.73%, 43.35%, 1) 15%,
+      hsla(214.36, 94.73%, 43.35%, 0) 80%
+    ),
+    linear-gradient(
+      245deg,
+      hsla(230.38, 96.3%, 46.13%, 1) 100%,
+      hsla(230.38, 96.3%, 46.13%, 0) 70%
+    );
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-size: 16px;
+  color: aliceblue;
+  font-family: "Monda", sans-serif;
+  text-align: center;
+}
+
+.container {
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+label,
+input {
+  margin-top: 2rem;
+}
+
+input[type="text"] {
+  padding: 0.6em;
+  width: 20%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 1.7em;
+}
+
+input[type="submit"] {
+  padding: 0.8em 1.5em;
+  background-color: #0457e8;
+  margin-left: 1em;
+  border: 1px solid #1d9af2;
+}
+
+input[type="submit"]:hover {
+  background-color: #c20baf;
+}
+
+input[type="submit"],
+#btn-reinicio {
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+#btn-reinicio {
+  padding: 1rem;
+  background-color: #00c853;
+  margin-top: 1.5em;
+}
+
+#div-img {
+  margin-top: 2em;
+}

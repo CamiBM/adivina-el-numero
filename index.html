@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adivina el número</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Juego: adivina el número</h1>
+      <p>
+        Ingresa un número al azar entre 1 y 100. Contás con 10 turnos para
+        adivinar. Te diré si el número que ingresaste es muy alto o muy bajo.
+      </p>
+      <label for="campo-respuestas">Ingresa un número:</label>
+      <input type="text" id="campo-respuestas" class="campo-respuestas" />
+      <input type="submit" class="enviar-numero" value="Enviar número" />
+
+      <div class="resultados">
+        <p class="cantidad"></p>
+        <p class="num-anteriores"></p>
+        <p class="num-alto-o-bajo"></p>
+      </div>
+      <div id="div-img"></div>
+    </div>
+
+    <script src="src/index.js" defer></script>
+  </body>
+</html>
